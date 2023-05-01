@@ -229,9 +229,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sanke\\source\\repos\\Flight Booking\\PaymentDetails\\PaymentDetails.csproj",
-      "projectName": "PaymentDetails",
-      "projectPath": "C:\\Users\\sanke\\source\\repos\\Flight Booking\\PaymentDetails\\PaymentDetails.csproj",
+      "projectUniqueName": "C:\\Users\\sanke\\source\\repos\\Flight Booking\\PaymentDetails\\Flight Booking System.csproj",
+      "projectName": "Flight Booking System",
+      "projectPath": "C:\\Users\\sanke\\source\\repos\\Flight Booking\\PaymentDetails\\Flight Booking System.csproj",
       "packagesPath": "C:\\Users\\sanke\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sanke\\source\\repos\\Flight Booking\\PaymentDetails\\obj\\",
       "projectStyle": "PackageReference",
