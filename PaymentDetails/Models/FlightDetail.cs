@@ -3,15 +3,15 @@ using System.ComponentModel.DataAnnotations;
 
 namespace demo1.Models
 {
-    public class FlightDetails
+    public class FlightDetail
     {
         [Key]
         public int FlightId { get; set; }
 
         //---------------------------------------------------------------------
 
-        [Required(ErrorMessage = "Train name is required")]
-        [StringLength(20, ErrorMessage = "Train name cannot be longer than 20 characters")]
+        [Required(ErrorMessage = "Flight name is required")]
+        [StringLength(20, ErrorMessage = "Flight name cannot be longer than 20 characters")]
         [DisplayName("Flight Name")]
         public string FlightName { get; set; }
 
@@ -20,14 +20,14 @@ namespace demo1.Models
         [Required(ErrorMessage = "Source is required")]
         [StringLength(20, ErrorMessage = "Source cannot be longer than 20 characters")]
         [DisplayName("From")]
-        public string? Source { get; set; }
+        public string Source { get; set; }
        
         //-----------------------------------------------------------------------
 
         [Required(ErrorMessage = "Destination is required")]
         [StringLength(50, ErrorMessage = "Destination cannot be longer than 50 characters")]
         [DisplayName("To")]
-        public string? Destination { get; set; }
+        public string Destination { get; set; }
 
         //------------------------------------------------------------------------
 
@@ -43,15 +43,15 @@ namespace demo1.Models
 
         //---------------------------------------------------------------------------
 
-        [Required]
-        [DisplayName("To")]
-        public int? Duration { get; set; }
+        //[Required]
+        //[DisplayName("To")]
+        //public int Duration { get; set; }
 
         //--------------------------------------------------------------------------------------
 
-        [Required(ErrorMessage = "Total seats is required")]
-        [Range(1, int.MaxValue, ErrorMessage = "Total seats should be greater than 0")]
-        public int TotalSeats { get; set; }
+        //[Required(ErrorMessage = "Total seats is required")]
+        //[Range(1, int.MaxValue, ErrorMessage = "Total seats should be greater than 0")]
+        //public int TotalSeats { get; set; }
 
         //--------------------------------------------------------------------------
 
@@ -63,6 +63,6 @@ namespace demo1.Models
 
         [Required(ErrorMessage = "Price is required")]
         [Range(1, int.MaxValue, ErrorMessage = "Price should be greater than 0")]
-        public int Price { get; set; }
+        public float Price { get; set; }
     }
 }

@@ -17,15 +17,16 @@ namespace demo1.Models
         //-------------------------------------------------------------------------------------------------------
 
         [Required(ErrorMessage = "Name is required")]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Name must be between 3 and 50 characters")]
-        public string? Name { get; set; }
+        [StringLength(50)]
+        [DisplayName("Name")]
+        public string Name { get; set; }
 
         //-------------------------------------------------------------------------------------------------------
 
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Invalid email address")]
         [DisplayName("Email-Id")]
-        public string? Email { get; set; }
+        public string Email { get; set; }
 
         //-------------------------------------------------------------------------------------------------------
 
@@ -33,7 +34,7 @@ namespace demo1.Models
         [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,15}$",
         ErrorMessage = "Password should be between 8 to 10 characters, and contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character.")]
         [DataType(DataType.Password)]
-        public string? Password { get; set; }
+        public string Password { get; set; }
 
         //-------------------------------------------------------------------------------------------------------
 
@@ -44,14 +45,14 @@ namespace demo1.Models
         //-------------------------------------------------------------------------------------------------------
 
         [Required(ErrorMessage = "Gender is required")]
-        public string? Gender { get; set; }
+        public string Gender { get; set; }
 
         //-------------------------------------------------------------------------------------------------------
 
         [Required(ErrorMessage = "Phone no. is required")]
         [Phone(ErrorMessage = "Invalid phone no.")]
         [DisplayName("Phone Number")]
-        public string? PhoneNo { get; set; }
+        public string PhoneNo { get; set; }
 
         //-------------------------------------------------------------------------------------------------------
 

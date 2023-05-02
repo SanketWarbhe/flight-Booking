@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace PaymentDetails.Models
 {
-    public class PaymentDetails
+    public class PaymentDetail
     {   
         [Key]
         [DisplayName("Payment ID")]
@@ -45,7 +45,7 @@ namespace PaymentDetails.Models
 
         //-------------------------------------------------
         [JsonIgnore]
-        public BookingDetails BookingDetails { get; set; }
+        public BookingDetail BookingDetails { get; set; }
     }
 
 }
