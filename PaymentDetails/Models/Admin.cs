@@ -11,7 +11,6 @@ namespace PaymentDetails.Models
         //---------------------------------------------------------
 
         [Required(ErrorMessage = "Name is required")]
-        [EmailAddress(ErrorMessage = "Invalid Name")]
         [DisplayName("User Name")]
         public string Name { get; set; }
 
@@ -22,7 +21,7 @@ namespace PaymentDetails.Models
         [DisplayName("Email-Id")]
         public string Email { get; set; }
 
-        //---------------------------------------------------------\
+        //---------------------------------------------------------
 
         [Required(ErrorMessage = "Password is required")]
         [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,15}$",

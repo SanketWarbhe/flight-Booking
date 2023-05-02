@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace demo1.Models
 {
@@ -54,7 +55,7 @@ namespace demo1.Models
 
         //-------------------------------------------------------------------------------------------------------
 
-        
+        [JsonIgnore]
         public User User { get; set; }
     }
 }

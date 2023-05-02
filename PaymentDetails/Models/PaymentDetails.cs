@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace PaymentDetails.Models
 {
@@ -43,7 +44,7 @@ namespace PaymentDetails.Models
         public int TotalAmount { get; set; }
 
         //-------------------------------------------------
-
+        [JsonIgnore]
         public BookingDetails BookingDetails { get; set; }
     }
 

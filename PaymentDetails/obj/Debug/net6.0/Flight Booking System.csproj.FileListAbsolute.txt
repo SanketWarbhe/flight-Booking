@@ -1,0 +1,32 @@
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\appsettings.json
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Flight Booking System.exe
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Flight Booking System.deps.json
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Flight Booking System.runtimeconfig.json
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Flight Booking System.dll
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Flight Booking System.pdb
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.csproj.AssemblyReference.cache
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.AssemblyInfoInputs.cache
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.AssemblyInfo.cs
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.csproj.CoreCompileInputs.cache
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\staticwebassets\msbuild.Flight Booking System.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\staticwebassets\msbuild.build.Flight Booking System.props
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Flight Booking System.props
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Flight Booking System.props
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\scopedcss\bundle\Flight Booking System.styles.css
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.csproj.CopyComplete
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.dll
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\refint\Flight Booking System.dll
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.pdb
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\Flight Booking System.genruntimeconfig.cache
+C:\Users\sanke\source\repos\Flight Booking\PaymentDetails\obj\Debug\net6.0\ref\Flight Booking System.dll

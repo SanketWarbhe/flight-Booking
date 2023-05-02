@@ -1,6 +1,7 @@
 ﻿using demo1.Models;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace PaymentDetails.Models
 {
@@ -43,11 +44,13 @@ namespace PaymentDetails.Models
         public string? Status { get; set; }
 
         //----------------------------------------------------------------
-
+        [JsonIgnore]
         public FlightDetails FlightDetails { get; set; }
 
+        [JsonIgnore]
         public Passenger Passenger { get; set; }
 
+        [JsonIgnore]
         public PaymentDetails PaymentDetails { get; set; }  
 
     }
