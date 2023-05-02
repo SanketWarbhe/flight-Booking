@@ -1,4 +1,4 @@
-using Flight_Booking_System.Models;
+using Flight_Booking_System.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

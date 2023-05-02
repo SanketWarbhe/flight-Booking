@@ -4,7 +4,7 @@ using PaymentDetails.Models;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Flight_Booking_System.Models
+namespace Flight_Booking_System.Data
 {
     public class FlightContext : DbContext
     {
